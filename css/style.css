@@ -4,43 +4,73 @@ img {
 }
 
 /* Layout */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .wrapper {
     width: 100%;
     height: 100vh;
 }
 
 .header {
-    background-color: lightgrey; 
     width: 100%;
     height: 80px;
+    /* debug */
     color:white;
+    background-color: #F8F9FA; 
 }
 
 .main {
-    background-color: green;
     width: 100%;
     height: calc(100% - 80px);
     display: flex;
+    /* debug */
     color: white;
+    background-color: #F8F9FA;
 }
 
 .sidebar {
-    background-color: blue;
     width: 100px;
     height: 100%;
+    /* debug */
     color: white;
+    background-color: #13293F;
 }
 
 .content {
     height: 100%;
     width: calc(100% - 100px);
     overflow-y: auto;
+    /* debug */
     border: 3px solid red;
 }
 
 .cta {
     width: 100%;
     height: 100px;
-    background-color: yellow;
+    /* debug */
+    background-color: #1B72E8;
     border:3px solid violet;
+    color: white;
+}
+
+/* HEADER */
+
+.header img {
+    width: 50px;
+}
+
+.fa-solid.fa-bell {
+    color: #FF8F00;
+}
+
+/* cta */
+
+
+/* Main content */
+
+.main-content {
+    color: black;
 }
