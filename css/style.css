@@ -32,7 +32,7 @@ body {
 }
 
 .sidebar {
-    width: 100px;
+    width: 60px;
     height: 100%;
     /* debug */
     color: white;
@@ -41,7 +41,7 @@ body {
 
 .content {
     height: 100%;
-    width: calc(100% - 100px);
+    width: calc(100% - 60px);
     overflow-y: auto;
     /* debug */
     border: 3px solid red;
@@ -64,6 +64,10 @@ body {
 
 .fa-solid.fa-bell {
     color: #FF8F00;
+}
+
+.actions {
+    color: red;
 }
 
 /* cta */
