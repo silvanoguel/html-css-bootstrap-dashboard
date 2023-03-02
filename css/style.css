@@ -10,7 +10,6 @@ img {
     margin: 0 auto;
 }
 
-
 /* Layout */
 
 /* Typography */
@@ -26,7 +25,6 @@ body {
 .ms_header {
     width: 100%;
     height: 80px;
-    /* debug */
     color:white;
     background-color: white;
 }
@@ -34,16 +32,13 @@ body {
 .main {
     width: 100%;
     height: calc(100% - 80px);
-    /* debug */
     color: white;
     background-color: #F8F9FA;
-
 }
 
 .sidebar {
     width: 60px;
     height: 100%;
-    /* debug */
     color: white;
     background-color: #13293F;
 }
@@ -52,7 +47,6 @@ body {
     height: 100%;
     width: calc(100% - 60px);
     overflow-y: auto;
-
 }
 
 .cta {
@@ -60,7 +54,6 @@ body {
     background-color: #1B72E8;
     color: white;
 }
-
 
 /* HEADER */
 
@@ -105,30 +98,32 @@ body {
     border-radius: 1.25rem;
 }
 
-
 /* Main content */
+
+.card img {
+    width: 40px;
+} 
+
+.card .stats-image img {
+    width: 100%;
+}
 
 .main-content {
     color: black;
 }
-
-
 /* Sidebar */
 
 @media screen and (min-width:992px) {
     .sidebar {
         width: 120px;
     }
-
     .content {
         width: calc(100% - 120px);
     }
-
     .sidebar-menu .home,
     .stats,
     .signals,
     .admin {
         text-align: left;
     }   
- 
 }
