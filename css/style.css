@@ -12,11 +12,12 @@ img {
 
 /* Layout */
 
+/* Typography */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper {
+.ms_wrapper {
     width: 100%;
     height: 100vh;
 }
@@ -32,7 +33,6 @@ body {
 .main {
     width: 100%;
     height: calc(100% - 80px);
-    display: flex;
     /* debug */
     color: white;
     background-color: #F8F9FA;
@@ -64,16 +64,15 @@ body {
     color: white;
 }
 
-.main-content {
-    width: 100%;
-    height: 100%;
-    border: 3px solid orange;
-}
 
 /* HEADER */
 
 .header img {
     width: 50px;
+}
+
+.header .big-logo img {
+    width: 100px;
 }
 
 .fa-solid.fa-bell {
@@ -85,6 +84,11 @@ body {
 }
 
 /* cta */
+
+.btn-primary {
+    background-color: #165BBA;
+    border-radius: 1.25rem;
+}
 
 
 /* Main content */
