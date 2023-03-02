@@ -10,6 +10,7 @@ img {
     margin: 0 auto;
 }
 
+
 /* Layout */
 
 /* Typography */
@@ -89,6 +90,15 @@ body {
 }
 
 /* cta */
+
+.fa-solid.fa-plus {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 6px;
+}
 
 .btn-primary {
     background-color: #165BBA;
