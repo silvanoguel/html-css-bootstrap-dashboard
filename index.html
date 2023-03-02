@@ -24,25 +24,43 @@
     <div class="ms_wrapper">
 
         <!-- HEADER -->
-        <section class="header">
-            <div class="container d-flex align-items-center justify-content-between">
-                <div class="big-logo d-none d-lg-inline">
-                    <img src="img/logo.svg" alt="">
-                </div>
-                <img class="d-lg-none" src="img/mobile-logo.png" alt="">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="ciao">
-                </form>
-                <div class="actions">
-                    <div class="hidden-actions d-none d-lg-inline-block">
-                        <i class="fa-solid fa-list"></i>
-                        <i class="fa-solid fa-circle-question"></i>
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <section class="ms_header d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Logos -->
+                    <div class="col-auto align-items-center">
+                        <div class="big-logo d-none d-lg-inline">
+                            <img src="img/logo.svg" alt="">
+                        </div>
+                        <img class="d-lg-none" src="img/mobile-logo.png" alt="">
                     </div>
-                    <i class="fa-solid fa-bell"></i>
+                    <!-- /Logos -->
+
+                    <!-- Search -->
+                    <div class="col">
+                        <div class="input-group">
+                            <span class="input-group-text ms_input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control ms_form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <!-- /Search -->
+
+                    <!-- Icons -->
+                    <div class="col-auto actions text-center d-flex">
+                        <div class="hidden-actions d-none d-lg-inline-block">
+                            <i class="fa-solid fa-list"></i>
+                            <i class="fa-solid fa-circle-question"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <!-- /Icons -->
                 </div>
-                    
+
+
+
             </div>
+                    
 
         </section>
         <!-- /HEADER -->
@@ -51,19 +69,37 @@
         <!-- MAIN -->
         <main class="main d-flex">
 
+            <!-- Sidebar -->           
+            <section class="sidebar d-flex flex-column justify-content-between">
 
-            <!-- Sidebar -->
-            <section class="sidebar">
-                <div class="container d-flex flex-column">
-                    <div class="sidebar-menu text-center">
-                        <i class="fa-solid fa-house"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <i class="fa-solid fa-signal"></i>
-                    </div>
-                    <div class="sidebar-settings text-center">
-                        <i class="fa-solid fa-gear"></i>
+                <div class="container-fluid">
+                    <div class="sidebar-menu text-center d-flex flex-column pt-2">
+                        <div class="home">
+                            <i class="fa-solid fa-house pt-2"></i>
+                            <span class="ps-2 d-none d-lg-inline">Home</span>
+                        </div>
+                        <div class="stats">
+                            <i class="fa-solid fa-chart-simple pt-2"></i>
+                            <span class="ps-2 d-none d-lg-inline">Stats</span>
+                        </div>
+                        <div class="signals">
+                            <i class="fa-solid fa-signal pt-2"></i>
+                            <span class="ps-2 d-none d-lg-inline">Signals</span>
+                        </div>
+
                     </div>
                 </div>
+
+
+                <div class="container-fluid">
+                    <div class="sidebar-settings text-center d-flex flex-column pb-2">
+                        <div class="admin">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="ps-2 d-none d-lg-inline">Admin</span>
+                        </div>
+                    </div>
+                </div>
+
 
 
             </section>
@@ -215,7 +251,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                            <div class="accordion-body">Ciao</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -225,7 +261,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body">Ciao</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -235,7 +271,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            <div class="accordion-body">Ciao</div>
                                           </div>
                                         </div>
                                       </div>

@@ -22,12 +22,12 @@ body {
     height: 100vh;
 }
 
-.header {
+.ms_header {
     width: 100%;
     height: 80px;
     /* debug */
     color:white;
-    background-color: #F8F9FA; 
+    background-color: white;
 }
 
 .main {
@@ -36,7 +36,7 @@ body {
     /* debug */
     color: white;
     background-color: #F8F9FA;
-    border: 2px solid green;
+
 }
 
 .sidebar {
@@ -51,28 +51,33 @@ body {
     height: 100%;
     width: calc(100% - 60px);
     overflow-y: auto;
-    /* debug */
-    border: 3px solid red;
+
 }
 
 .cta {
     width: 100%;
-    /* height: 100px; */
-    /* debug */
     background-color: #1B72E8;
-    border:3px solid violet;
     color: white;
 }
 
 
 /* HEADER */
 
-.header img {
+.ms_header img {
     width: 50px;
 }
 
-.header .big-logo img {
+.ms_header .big-logo img {
     width: 100px;
+}
+
+.ms_form-control {
+    background-color: #E5E5E5;
+    border-left: 0;
+}
+
+.ms_input-group-text {
+    background-color: #E5E5E5;
 }
 
 .fa-solid.fa-bell {
@@ -80,7 +85,7 @@ body {
 }
 
 .actions {
-    color: red;
+    color:#5B5858;
 }
 
 /* cta */
@@ -109,4 +114,11 @@ body {
         width: calc(100% - 120px);
     }
 
+    .sidebar-menu .home,
+    .stats,
+    .signals,
+    .admin {
+        text-align: left;
+    }   
+ 
 }
